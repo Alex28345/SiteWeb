@@ -72,3 +72,21 @@ nav > ul li:hover .sous{
   content:" ▼";
   font-size: 12px;
 }
+
+#content{
+  /*background:lightblue;*/
+  
+}
+#content h3{
+
+  justify-content: center;
+  background:lightblue;
+  
+}
+
+#content img{
+  padding: 50px;
+  display: inline-flex;
+  background:green;
+  
+}
