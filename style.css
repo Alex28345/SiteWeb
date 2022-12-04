@@ -69,24 +69,30 @@ nav > ul li:hover .sous{
   background-color: RGBa(200,200,200,0.1);
 }
 .deroulant > a::after{
-  content:" ▼";
+  content:" ";
   font-size: 12px;
 }
 
-#content{
-  /*background:lightblue;*/
-  
-}
-#content h3{
-
-  justify-content: center;
-  background:lightblue;
+table{
+  width: 100%;
+  border: 2px black solid;
   
 }
 
-#content img{
-  padding: 50px;
-  display: inline-flex;
-  background:green;
-  
+table tr:nth-child(even) td img{
+  width: 100%;
+}
+table tr:nth-child(even) td:nth-child(odd){
+  width: 50%;
+}
+
+table tr:nth-child(odd){
+  background: #80aaff;
+}
+table tr:nth-child(even){
+  background: lightblue;
+}
+
+table td{
+  padding: 30px;
 }
