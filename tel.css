@@ -13,6 +13,7 @@
       width: 50px;
     }
     .menu:hover{
-      background: blue;
+      background: red;
+      
     }
   }
