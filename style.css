@@ -14,6 +14,7 @@ body:not(nav){
 }
 
 nav{
+  opacity: 70%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -33,6 +34,7 @@ nav ul{
   list-style-type: none;
   display: flex;
   justify-content: space-around;
+  
   flex-direction: row;
 }
 
@@ -44,12 +46,16 @@ nav a{
   display: block;
   text-decoration: none;
   color: black;
-  padding: 10px;
+  padding: 15px;
+  border-radius: 10px;
 }
 
 nav a:hover{
+  
   background: lightblue;
   color: orange;
+  transition: 0.75s;
+  
 }
 
 .sous{
@@ -57,7 +63,7 @@ nav a:hover{
   width: 14.25%;
   display: none;
   box-shadow: 0px 1px 2px #CCC;
-  background-color: white;
+  background: white;
   z-index: 1000;
 }
 
@@ -82,4 +88,89 @@ nav > ul li:hover .sous{
   font-size: 12px;
 }
 
+.images {
+  display: flex;
+  height: 100%;
+  width : 100%;
+  animation-duration: 20s;
+  animation-name: mesImages;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mesImages {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-640px);
+  }
+  50% {
+    transform: translateX(-1280px);
+  }
+  75% {
+    transform: translateX(-1920px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#caroussel {
+  border-radius: 15px;
+  margin-top: 50px;
+  height: 480px;
+  width: 640px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+content h2{
+  margin-top: 20px;
+}
+content h1{
+  margin-top: 40px;
+}
+.container-responsive .pays{
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  justify-content: center;
+}
+
+.container-responsive .pays .media{
+  margin-right: 7%;
+}
+
+.container-responsive .text{
+  max-width: 500px;
+}
+
+.container-responsive .pays2{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 40px;
+  justify-content: center;
+
+}
+.text{
+  text-align: center;
+}
+.container-responsive .pays2 .text{
+  margin-right: 7%;
+}
+
+.container-responsive .media img{
+  width: 100%;
+  max-width: 800px;
+  
+} 
 

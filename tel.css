@@ -14,6 +14,23 @@
     }
     .menu:hover{
       background: red;
-      
+    }
+    .container-responsive .pays2{
+      flex-direction: column;
+    }
+
+    .container-responsive .pays{
+      flex-direction: column;
+    }
+    
+    .container-responsive .pays2 .text{
+      margin-right: 0px;
+    }
+    .text{
+      margin-top: 50px;
+      margin-bottom: 100px;
+    }
+    .container-responsive .pays .media{
+      margin-right: 0px;
     }
   }
