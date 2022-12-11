@@ -14,14 +14,13 @@ body:not(nav){
 }
 
 nav{
-  opacity: 70%;
+  backdrop-filter: blur(3px);
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin: 0 auto;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.479);
   position: sticky;
   top: 0px;
 }
@@ -54,7 +53,7 @@ nav a:hover{
   
   background: lightblue;
   color: orange;
-  transition: 0.75s;
+  transition: 0.5s;
   
 }
 
@@ -70,6 +69,7 @@ nav a:hover{
 nav > ul li:hover .sous{
   display: flex;
   flex-direction: column;
+  
 }
 .sous li{
   float: none;
