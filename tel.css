@@ -1,21 +1,26 @@
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
+  body{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
     nav{
       display: none;
     }
 
     .menu img{
       width:100%;
-      height: 100%;
+      height:100%;
     }
 
     .menu{
       display: block;
-      position: absolute;
-      left: 15px;
-      top: 15px;
-      width: 40px;
+      width: 92%;
       height: 40px;
       padding: 10px;
+      margin-top: 15px;
+      border-radius: 10px;
     }
     
     .menu:hover{
@@ -28,7 +33,10 @@
     .container-responsive .pays{
       flex-direction: column;
     }
-    
+    .container-responsive .text{
+      width: 90%;
+      
+    }
     .container-responsive .pays2 .text{
       margin-right: 0px;
     }
