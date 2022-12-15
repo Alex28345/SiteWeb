@@ -1,95 +1,147 @@
-
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <link rel="stylesheet" href="../style.css">
+    <script type="text/javascript">
+        function switchStyle(style){
+           document.getElementById("mycss").setAttribute("href", style);
+        }
+    </script>
+    <link rel="stylesheet" type="text/css" href="mafeuilledestylepardefaut.css" id="mycss" />
+
+    <link rel="stylesheet" href="../style2.css" id="jour">
     <link rel="stylesheet" href="../tel.css">
     <meta charset="UTF-8">
     <title>Afrique</title>
 </head>
+
 <body>
     <div class="menu"><img src="../assets/menu.svg"></div>
     <nav>
-        <a href="../index.html"><img src="https://media.discordapp.net/attachments/1046707606087008278/1046713542977527808/logo.png"></a>
+        <a href="../index.html"><img
+                src="https://media.discordapp.net/attachments/1046707606087008278/1046713542977527808/logo.png"></a>
         <ul>
-            <li class="deroulant" ><a href="Europe.html">Europe</a>
+            <li class="deroulant"><a href="Europe.html">Europe</a>
                 <ul class="sous">
-                    <li><a href="#Destination1">go to destination 3</a></li>
-                    <li><a href="#Destination2">certains pays</a></li>
-                    <li><a href="#Destination3">certains pays</a></li>
+                    <li><a href="Europe.html#Destination1">Le Royaume-Unis</a></li>
+                    <li><a href="Europe.html#Destination2">L'Espagne</a></li>
+                    <li><a href="Europe.html#Destination3">Le Portugal</a></li>
+                    <li><a href="Europe.html#Destination4">La Norvège</a></li>
+                    <li><a href="Europe.html#Destination5">L'Italie</a></li>
+                    <li><a href="Europe.html#Destination6">L'Irlande</a></li>
+                    <li><a href="Europe.html#Destination7">La Grèce</a></li>
+                    <li><a href="Europe.html#Destination8">La France</a></li>
                 </ul>
             </li>
-            <li class="deroulant"><a href="Afrique.html">Afrique</a>
+            <li class="deroulant active"><a href="Afrique.html">Afrique</a>
                 <ul class="sous">
-                    <li><a href="#Destination1">go to destination 3</a></li>
-                    <li><a href="#Destination2">certains pays</a></li>
-                    <li><a href="#Destination3">certains pays</a></li>
+                    <li><a href="Afrique.html#Destination1">La Réunion</a></li>
+                    <li><a href="Afrique.html#Destination2">Le Maroc</a></li>
+                    <li><a href="Afrique.html#Destination3">L'Egypte</a></li>
+                    <li><a href="Afrique.html#Destination4">La Tanzanie</a></li>
                 </ul>
             </li>
-            <li class="deroulant"><a href="Amerique.html">Amerique</a>
+            <li class="deroulant"><a href="Amerique.html">Amérique</a>
                 <ul class="sous">
-                    <li><a href="#Destination1">go to destination 3</a></li>
-                    <li><a href="#Destination2">certains pays</a></li>
-                    <li><a href="#Destination3">certains pays</a></li>
+                    <li><a href="Amerique.html#Destination1">Etats Unis Cote Est</a></li>
+                    <li><a href="Amerique.html#Destination2">Etats Unis Cote Ouest</a></li>
+                    <li><a href="Amerique.html#Destination3">Le Méxique</a></li>
+                    <li><a href="Amerique.html#Destination4">L'Argentine</a></li>
+                    <li><a href="Amerique.html#Destination5">Les Caraïbes</a></li>
                 </ul>
             </li>
             <li class="deroulant"><a href="Asie.html">Asie</a>
                 <ul class="sous">
-                    <li><a href="#Destination1">go to destination 3</a></li>
-                    <li><a href="#Destination2">certains pays</a></li>
-                    <li><a href="#Destination3">certains pays</a></li>
+                    <li><a href="Asie.html#Destination1">Les Maldives</a></li>
+                    <li><a href="Asie.html#Destination2">Les Emirats Arabes Unis</a></li>
+                    <li><a href="Asie.html#Destination3">La Chine</a></li>
+                    <li><a href="Asie.html#Destination4">philipine/ malaisie/ thailand</a></li>
                 </ul>
             </li>
             <li class="deroulant"><a href="Oceanie.html">Océanie</a>
                 <ul class="sous">
-                    <li><a href="#Destination1">go to destination 3</a></li>
-                    <li><a href="#Destination2">certains pays</a></li>
-                    <li><a href="#Destination3">certains pays</a></li>
+                    <li><a href="Oceanie.html#Destination1">Hawaii</a></li>
+                    <li><a href="Oceanie.html#Destination2">L'Australie</a></li>
                 </ul>
             </li>
             <li class="deroulant"><a href="Antarctique.html">Antarctique</a>
                 <ul class="sous">
-                    <li><a href="#Destination1">go to destination 3</a></li>
-                    <li><a href="#Destination2">certains pays</a></li>
-                    <li><a href="#Destination3">certains pays</a></li>
                 </ul>
             </li>
-        </ul> 
-        <a href="index.html"><img src="../assets/discord.svg"></a>
+        </ul>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="../assets/discord.svg"></a>
     </nav>
     <div class="container-responsive">
         <div class="pays" id="Destination1">
-            <div class="media"><img src="../assets/pays1Afrique.jpg" alt=""></div>
-            <div class="text"><h1>Le pays</h1> Un texte répond de façon plus ou moins pertinente à des critères qui en déterminent 
-                la qualité littéraire. On retient en particulier la structure d'ensemble, la syntaxe et la ponctuation, 
-                l'orthographe lexicale et grammaticale, la pertinence et la richesse du vocabulaire, la présence de figures de style, 
-                le registre de langue et la fonction recherchée (narrative, descriptive, expressive, argumentative, injonctive, poétique). 
-                C'est l'objet de l'analyse littéraire.</div>
+            <div class="media jour"><img src="../assets/reunion.jpg" alt=""></div>
+            <div class="media nuit"><img src="../assets/reunion(nuit).jpg" alt=""></div>
+            <div class="text">
+                <h1>La Réunion</h1>
+                En visitant la réunion, vous découvrirez une culture totalement différente
+                avec une mentalité beaucoup plus simpliste contrairement à celle de la métropole qui vous fera oublier
+                que
+                vous êtes en France. Vous pourrez y découvrir de super plages avec de super fonds marins mais en
+                surveillant
+                toujours les lieux dans lesquels vous vous baignez car certaines zones sont habitées par des requins.
+                Vous pourrez ensuite vous aventurez plus profondément dans les terres pour pouvoir vous engager dans des
+                randonnées pour trouver des paysages naturellement splendides. De plus si vous êtes motivés vous pourrez
+                gravir le piton de la fournaise, un volcan encore en activité ouvert au public et avec un peu de chance
+                vous
+                réussirez à le voir en éruption.
+            </div>
         </div>
         <div class="pays2" id="Destination2">
-            <div class="media"><img src="../assets/pays1Afrique.jpg" alt=""></div>
-            <div class="text"><h1>Le pays</h1>Un texte répond de façon plus ou moins pertinente à des critères qui en déterminent 
-                la qualité littéraire. On retient en particulier la structure d'ensemble, la syntaxe et la ponctuation, 
-                l'orthographe lexicale et grammaticale, la pertinence et la richesse du vocabulaire, la présence de figures de style, 
-                le registre de langue et la fonction recherchée (narrative, descriptive, expressive, argumentative, injonctive, poétique). 
-                C'est l'objet de l'analyse littéraire.</div>
+            <div class="media jour"><img src="../assets/maroc.jpg" alt=""></div>
+            <div class="media nuit"><img src="../assets/maroc(nuit).jpg" alt=""></div>
+            <div class="text perdant">
+                <h1>Le Maroc</h1>
+                <div id="perdu">Ils ont perdu</div>
+                Le Maroc est un pays assez pauvre et il est assez impressionnant
+                d'aller visiter le cœur des villes afin de se rendre compte a quelle point leur style de vie n’a rien à
+                voir avec le nôtre. Un des points les plus incontournable pour cela, c’est la place Jamaa El Fna où vous
+                pourrez y trouver un immense marché dans lequel vous pourrez vous perdre entre les étales. Mais le maroc
+                est aussi bien connu pour ses hôtels 5 étoiles all-inclusive parfait pour faire la fête et y passer un
+                week-end car il ne faut pas oublier de se faire plaisir.
+            </div>
         </div>
         <div class="pays" id="Destination3">
-            <div class="media"><img src="../assets/pays1Afrique.jpg" alt=""></div>
-            <div class="text"><h1>Le pays</h1>Un texte répond de façon plus ou moins pertinente à des critères qui en déterminent 
-                la qualité littéraire. On retient en particulier la structure d'ensemble, la syntaxe et la ponctuation, 
-                l'orthographe lexicale et grammaticale, la pertinence et la richesse du vocabulaire, la présence de figures de style, 
-                le registre de langue et la fonction recherchée (narrative, descriptive, expressive, argumentative, injonctive, poétique). 
-                C'est l'objet de l'analyse littéraire.</div>
+            <div class="media jour"><img src="../assets/egypte.jpg" alt=""></div>
+            <div class="media nuit"><img src="../assets/egypte(nuit).jpg" alt=""></div>
+            <div class="text">
+                <h1>L'Egypte</h1>
+                L’Egypte est un pays dans lequel il faut essayer de se déplacer un maximum afin
+                de voir un maximum de paysage différents. Le top est de commencer dans le nord au caire pour s’en mettre
+                plein
+                la vue dès le début en allant au pied du sphinx et des pyramides puis en finissant par une visite de la
+                magnifique
+                ville du caire.
+                Ensuite il est possible de faire une croisière de quelques jours sur le nil pour pouvoir descendre dans
+                le sud et
+                à chaque arrêt visiter de nouveaux temples tous plus impressionnants les uns que les autres.
+                Pour finir à l'arrivée de la croisières se retrouver dans un magnifique hôtel en bord de plage pour
+                pouvoir
+                decouvrire des fonds marins qui font partie des meilleurs spot de plongée du monde.
+            </div>
         </div>
         <div class="pays2" id="Destination4">
-            <div class="media"><img src="../assets/pays1Afrique.jpg" alt=""></div>
-            <div class="text">Un texte répond de façon plus ou moins pertinente à des critères qui en déterminent 
-                la qualité littéraire. On retient en particulier la structure d'ensemble, la syntaxe et la ponctuation, 
-                l'orthographe lexicale et grammaticale, la pertinence et la richesse du vocabulaire, la présence de figures de style, 
-                le registre de langue et la fonction recherchée (narrative, descriptive, expressive, argumentative, injonctive, poétique). 
-                C'est l'objet de l'analyse littéraire.</div>
+            <div class="media jour"><img src="../assets/tanzanie.jpg" alt=""></div>
+            <div class="media nuit"><img src="../assets/tanzanie(nuit).jpg" alt=""></div>
+            <div class="text">
+                <h1>La Tanzanie</h1>
+                La tanzanie est un pays de l’est de l'afrique qui n’est pas encore très
+                connu qui a donc pu rester assez sauvage. Le meilleur programme pour visiter le pays se déroule sur 2
+                semaine,
+                une première semaine qui ne sera pas forcément la plus reposante durant laquelle vous devrez faire des
+                safaries
+                dans afin de découvrir un maximum de parc naturelles dans lesquelles vous pourrez apercevoir des
+                milliers
+                d'animaux et espérer pouvoir croiser le rois de tous les animaux, Le lion. Ensuite durant la deuxième
+                semaine
+                pour se reposer il faudra se déplacer vers zanzibar afin de passer la semaine a la piscine et en bords
+                de plage.
+            </div>
         </div>
     </div>
 </body>
+
 </html>
