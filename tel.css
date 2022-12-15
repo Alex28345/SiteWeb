@@ -22,7 +22,7 @@
       margin-top: 15px;
       border-radius: 10px;
     }
-    
+
     .menu:hover{
       background: red;
     }
@@ -34,11 +34,12 @@
       flex-direction: column;
     }
     .container-responsive .text{
-      width: 90%;
+      width: 100%;
       
     }
     .container-responsive .pays2 .text{
       margin-right: 0px;
+      width: 100%;
     }
     .text{
       margin-top: 50px;

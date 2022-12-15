@@ -4,7 +4,6 @@
   padding: 0px;
   font-family: Comic Sans MS, Comic Sans, cursive;
   scroll-behavior: smooth;
-
 }
 
 .menu {
@@ -14,6 +13,7 @@
 body:not(nav) {
   top: 40px;
   background: #f8f9fa;
+  
 }
 
 nav {
@@ -200,6 +200,10 @@ content h1 {
   position: relative;
 }
 
+.media {
+  display: flex;
+  justify-content: center;
+}
 
 
 .text {
