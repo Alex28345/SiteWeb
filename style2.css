@@ -203,6 +203,10 @@
     position: relative;
   }
   
+  .media {
+    display: flex;
+    justify-content: center;
+  }
   .text {
     text-align: center;
     color: #cad2c5;
@@ -221,7 +225,19 @@
     box-shadow: 0 0 10px rgba(163, 177, 138);
   
   }
-  
+
+button img{
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+}
+button{
+  position: sticky;
+  bottom: 20px;
+  left: 20px;
+  border-radius: 5px;
+}
+
 .jour {
     display: none;
 }

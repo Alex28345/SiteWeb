@@ -222,6 +222,21 @@ content h1 {
   border: 15px solid rgba(82, 183, 136, 0.479);
 }
 
+
+button img{
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+}
+
+button{
+  position: sticky;
+  bottom: 20px;
+  left: 20px;
+  border-radius: 5px;
+}
+
+
 .nuit {
   display: none;
 }

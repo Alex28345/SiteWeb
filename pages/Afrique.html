@@ -2,14 +2,8 @@
 <html lang="fr">
 
 <head>
-    <script type="text/javascript">
-        function switchStyle(style){
-           document.getElementById("mycss").setAttribute("href", style);
-        }
-    </script>
-    <link rel="stylesheet" type="text/css" href="mafeuilledestylepardefaut.css" id="mycss" />
-
-    <link rel="stylesheet" href="../style2.css" id="jour">
+    <script src="../script.js"></script>
+    <link rel="stylesheet" href="../style.css" id="nuit">
     <link rel="stylesheet" href="../tel.css">
     <meta charset="UTF-8">
     <title>Afrique</title>
@@ -142,6 +136,8 @@
             </div>
         </div>
     </div>
-</body>
 
+    <button class="nuit" onclick="switchStyle('../style.css')"><img src="../assets/soleil.svg"></div>
+    <button class="jour" onclick="switchStyle('../style2.css')"><img src="../assets/lune.svg"></button></div>
+</body>
 </html>

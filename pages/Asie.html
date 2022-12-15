@@ -2,7 +2,9 @@
 <html lang="fr">
 
 <head>
-    <link rel="stylesheet" href="../style.css">
+    <script src="../script.js"></script>
+
+    <link rel="stylesheet" href="../style.css" id="nuit">
     <link rel="stylesheet" href="../tel.css">
     <meta charset="UTF-8">
     <title>Asie</title>
@@ -67,7 +69,7 @@
     <div class="container-responsive">
         <div class="pays" id="Destination1">
             <div class="media jour"><img src="../assets/maldives.jpg" alt=""></div>
-            <div class="media nuit"><img src="../assets/maldives(night).jpg" alt=""></div>
+            <div class="media nuit"><img src="../assets/maldives(nUIT).jpg" alt=""></div>
             <div class="text">
                 <h1>Les Maldives</h1>
                 Quoi de mieux pour passer du bon temps et décompresser qu’une destination
@@ -137,6 +139,8 @@
             </div>
         </div>
     </div>
+    <button class="nuit" onclick="switchStyle('../style.css')"><img src="../assets/soleil.svg"></div>
+    <button class="jour" onclick="switchStyle('../style2.css')"><img src="../assets/lune.svg"></button></div>
 </body>
 
 </html>

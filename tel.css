@@ -23,8 +23,8 @@
       border-radius: 10px;
     }
 
-    .menu:hover{
-      background: red;
+    .menu{
+      background: lightgreen;
     }
     .container-responsive .pays2{
       flex-direction: column;
