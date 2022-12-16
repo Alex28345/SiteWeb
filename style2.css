@@ -12,7 +12,6 @@
   }
   
   body:not(nav) {
-    top: 40px;
     background: #232323;
   }
   
@@ -24,7 +23,7 @@
     justify-content: space-between;
     width: 100%;
     background: rgba(163, 177, 138, 0.479);
-    position: sticky;
+    position: relative;
     top: 0px;
   
   }
@@ -33,16 +32,19 @@
     width: 50px;
   }
   
-  nav ul {
-    width: 80%;
+  nav .nav-links ul{
     list-style-type: none;
     display: flex;
     justify-content: space-around;
-  
     flex-direction: row;
+    width: 100%;
+    
+  }
+  nav .nav-links {
+    width: 100%;
   }
   
-  nav ul li {
+  nav .nav-links ul li {
     text-align: center;
   }
   
@@ -66,7 +68,7 @@
   
   }
   
-  .sous {
+  .nav-links .sous {
     position: absolute;
     width: 14.25%;
     display: none;
@@ -76,19 +78,19 @@
     border-radius: 10px;
   }
   
-  nav>ul li:hover .sous {
+  nav .nav-links>ul li:hover .sous {
     display: flex;
     flex-direction: column;
   
   }
   
-  .sous li {
+  .nav-links .sous li {
     float: none;
     width: 100%;
     text-align: left;
   }
   
-  .sous a {
+  .nav-links .sous a {
     padding: 10px;
     border-bottom: none;
   }
@@ -163,7 +165,7 @@
   .container-responsive .pays {
     display: flex;
     align-items: center;
-    padding: 90px 90px 50px 90px;
+    padding: 50px;
     justify-content: center;
   }
   
@@ -171,7 +173,7 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    padding: 90px 90px 50px 90px;
+    padding: 50px;
     justify-content: center;
   }
   
@@ -236,6 +238,9 @@ button{
   bottom: 20px;
   left: 20px;
   border-radius: 5px;
+}
+.ancrage-haut {
+  left: 100px;
 }
 
 .jour {
