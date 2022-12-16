@@ -1,57 +1,98 @@
 @media screen and (max-width: 1100px) {
-  body{
+  body {
     
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
   nav{
-    display: none;
+    width: 100%;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav .active {
+    text-decoration: none;
+  }
+  nav .nav-links ul{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    
+  }
+  
+  .nav-links{
+    display: flex;
+    justify-content: center;
+    background: rgba(82, 183, 136, 0.8);
+    position: absolute;
+    top: 75px;
+    left: 0px;
+    width: 100%;
+    margin-left: +100%;
+    transition: all 0.5s ease;
+  }
+  .mobile-menu{
+    margin-left: 0;
+  }
+  .nav-links .menu img {
+    width: 100%;
     height: 100%;
   }
 
-    nav ul{
-      position: absolute;
-    }
-
-    .menu img{
-      width:100%;
-      height:100%;
-    }
-
-    .menu{
-      display: block;
-      width: 92%;
-      height: 40px;
-      padding: 10px;
-      margin-top: 15px;
-      border-radius: 10px;
-    }
-
-    .menu{
-      background: lightgreen;
-    }
-    .container-responsive .pays2{
-      flex-direction: column;
-    }
-
-    .container-responsive .pays{
-      flex-direction: column;
-    }
-    .container-responsive .text{
-      width: 100%;
-      
-    }
-    .container-responsive .pays2 .text{
-      margin-right: 0px;
-      width: 100%;
-    }
-    .text{
-      margin-top: 50px;
-      margin-bottom: 100px;
-    }
-    .container-responsive .pays .media{
-      margin-right: 0px;
-    }
+  nav .menu {
+    margin:  0 10px 0 10px;
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(64, 145, 107, 0.8);
   }
+  nav .menu:hover {
+    background: rgba(86, 196, 144, 0.8);
+  }
+
+  nav a:hover {
+    background: rgba(85, 194, 143, 0.8);
+    transition: 0.25s;
+
+  }
+  .nav-links .sous {
+    border-bottom: none;
+    position: relative;
+    width: 100%;
+    background: rgba(82, 183, 136, 0.8);
+  }
+  .nav-links .sous a:hover {
+    background: RGBa(45, 106, 79, 0.2);
+  
+  }
+  .container-responsive .pays2 {
+    flex-direction: column;
+  }
+
+  .container-responsive .pays {
+    flex-direction: column;
+  }
+
+  .container-responsive .text {
+    width: 100%;
+
+  }
+
+  .container-responsive .pays2 .text {
+    margin-right: 0px;
+    width: 100%;
+  }
+
+  .text {
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  .container-responsive .pays .media {
+    margin-right: 0px;
+  }
+}

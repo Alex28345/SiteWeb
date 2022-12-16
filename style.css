@@ -11,9 +11,7 @@
 }
 
 body:not(nav) {
-  top: 40px;
   background: #f8f9fa;
-  
 }
 
 nav {
@@ -32,17 +30,19 @@ nav {
 nav img {
   width: 50px;
 }
-
-nav ul {
-  width: 80%;
+nav .nav-links ul{
   list-style-type: none;
   display: flex;
   justify-content: space-around;
-
   flex-direction: row;
+  width: 100%;
+  
+}
+nav .nav-links {
+  width: 100%;
 }
 
-nav ul li {
+nav .nav-links ul li {
   text-align: center;
 }
 
@@ -66,7 +66,7 @@ nav a:hover {
 
 }
 
-.sous {
+.nav-links .sous {
   position: absolute;
   width: 14.25%;
   display: none;
@@ -76,30 +76,30 @@ nav a:hover {
   border-radius: 10px;
 }
 
-nav>ul li:hover .sous {
+nav .nav-links>ul li:hover .sous {
   display: flex;
   flex-direction: column;
 
 }
 
-.sous li {
+.nav-links .sous li {
   float: none;
   width: 100%;
   text-align: left;
 }
 
-.sous a {
+.nav-links .sous a {
   padding: 10px;
   border-bottom: none;
 }
 
-.sous a:hover {
+.nav-links .sous a:hover {
   border-bottom: none;
   background: RGBa(45, 106, 79, 0.2);
 
 }
 
-.deroulant>a::after {
+.nav-links .deroulant>a::after {
   font-size: 12px;
 }
 
@@ -235,7 +235,8 @@ button{
   border-radius: 5px;
 }
 
-
 .nuit {
   display: none;
 }
+
+
