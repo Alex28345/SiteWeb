@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="../tel.css">
     <meta charset="UTF-8">
     <title>Oceanie</title>
+    <script>
+        const menuTel = document.querySelector(".menu")
+        const navLinks = document.querySelector(".nav-links")
+
+        menuTel.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
 </head>
 
 <body>
@@ -16,6 +24,7 @@
         
         <a href="../index.html"><img src="https://media.discordapp.net/attachments/1046707606087008278/1046713542977527808/logo.png" alt=""></a>
         <img src="../assets/menu.svg" alt="" class="menu" >
+        
         <div class="nav-links"> 
             <ul>
                 <li class="deroulant"><a href="Europe.html">Europe</a>
@@ -92,6 +101,7 @@
             </div>
         </div>
     </div>
+    
     <button class="nuit" onclick="switchStyle('../style.css')"><img src="../assets/soleil.svg" alt=""></div>
     <button class="jour" onclick="switchStyle('../style2.css')"><img src="../assets/lune.svg" alt=""></button></div>
 </body>

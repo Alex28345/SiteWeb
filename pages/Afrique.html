@@ -137,7 +137,14 @@
             </div>
         </div>
     </div>
+    <script>
+        const menuTel = document.querySelector(".menu")
+        const navLinks = document.querySelector(".nav-links")
 
+        menuTel.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
     <button class="nuit" onclick="switchStyle('../style.css')"><img src="../assets/soleil.svg" alt=""></div>
         <button class="jour" onclick="switchStyle('../style2.css')"><img src="../assets/lune.svg" alt=""></button></div>
 </body>
