@@ -8,6 +8,7 @@
 
 .menu {
   display: none;
+  background: rgba(82, 183, 136, 0.479);
 }
 
 body:not(nav) {
@@ -161,7 +162,7 @@ content h1 {
 .container-responsive .pays {
   display: flex;
   align-items: center;
-  padding: 50px;
+  padding: 70px;
   justify-content: center;
 }
 
@@ -169,7 +170,7 @@ content h1 {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  padding: 50px;
+  padding: 70px;
   justify-content: center;
 }
 
@@ -228,6 +229,7 @@ button img{
 }
 
 button{
+  opacity: 80%;
   position: sticky;
   bottom: 20px;
   left: 20px;

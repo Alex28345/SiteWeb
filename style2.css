@@ -9,6 +9,8 @@
   
   .menu {
     display: none;
+    background: rgba(163, 177, 138, 0.479);
+
   }
   
   body:not(nav) {
@@ -165,7 +167,7 @@
   .container-responsive .pays {
     display: flex;
     align-items: center;
-    padding: 50px;
+    padding: 70px;
     justify-content: center;
   }
   
@@ -173,7 +175,7 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    padding: 50px;
+    padding: 70px;
     justify-content: center;
   }
   
@@ -233,14 +235,16 @@ button img{
   height: 40px;
   margin: 5px;
 }
+
 button{
+  opacity: 80%;
   position: sticky;
   bottom: 20px;
   left: 20px;
   border-radius: 5px;
 }
 .ancrage-haut {
-  left: 100px;
+  left: 80px;
 }
 
 .jour {

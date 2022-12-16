@@ -2,7 +2,6 @@
   
   nav{
     width: 100%;
-    background: red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,11 +24,11 @@
     top: 75px;
     left: 0px;
     width: 100%;
-    margin-left: -100%;
+    margin-top: -100%;
     transition: all 0.5s ease;
   }
   .mobile-menu{
-    margin-left: 0;
+    margin-top: 0;
   }
 
   .nav-links .menu img {
@@ -44,10 +43,14 @@
     height: 40px;
     padding: 10px;
     border-radius: 10px;
-    background: rgba(64, 145, 107, 0.8);
   }
   nav .menu:hover {
     background: rgba(86, 196, 144, 0.8);
+  }
+   nav .nav-links>ul li:hover .sous {
+    display: flex;
+    flex-direction: column;
+  
   }
 
   nav a:hover {
@@ -64,6 +67,9 @@
   .nav-links .sous a:hover {
     background: RGBa(45, 106, 79, 0.2);
   
+  }
+  nav .nav-links>ul li:hover .sous {
+    display: none;  
   }
   .container-responsive .pays2 {
     flex-direction: column;
