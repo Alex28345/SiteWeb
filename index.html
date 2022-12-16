@@ -2,13 +2,13 @@
 <html lang="fr">
 <head>
     <script src="script.js"></script>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css" id="nuit">
     <link rel="stylesheet" href="tel.css">
     <meta charset="UTF-8">
     <title>Voyage Voyage</title>
 </head>
 <body>
-    <div class="menu"><img src="./assets/menu.svg"></div>
+    <img src="./assets/menu.svg" class="menu">
     <nav>
         <a href="../index.html"><img
                 src="https://media.discordapp.net/attachments/1046707606087008278/1046713542977527808/logo.png"></a>
@@ -65,7 +65,7 @@
     </nav>
     <content>
         <h1>VOYAGE VOYAGE</h1>
-        <h2>un récapitulatif de nos voyages à travers le monde entier avec nos avis et conseils.</h2>
+        <p>un récapitulatif de nos voyages à travers le monde entier avec nos avis et conseils.</p>
 
         <div id="caroussel">
             <div class="images">
@@ -76,14 +76,14 @@
             </div>
         </div>
     </content>
-<!--<script>
-        const menuHamburger = document.querySelector(".menu-hamburger")
-        const navLinks = document.querySelector(".nav-links")
- 
-        menuHamburger.addEventListener('click',()=>{
-        navLinks.classList.toggle('mobile-menu')
-        })
-</script>-->
+    <script>
+            const menuTel = document.querySelector(".menu-hamburger")
+            const navLinks = document.querySelector(".nav-links")
+    
+            menuTel.addEventListener('click',()=>{
+            navLinks.classList.toggle('mobile-menu')
+            })
+    </script>
     <button class="nuit" onclick="switchStyle('../style.css')"><img src="../assets/soleil.svg"></div>
     <button class="jour" onclick="switchStyle('../style2.css')"><img src="../assets/lune.svg"></button></div>
 </body>

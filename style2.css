@@ -149,7 +149,7 @@
     align-items: center;
   }
   
-  content h2 {
+  content p {
     margin-top: 10px;
     color: #cad2c5;
   }
@@ -184,7 +184,7 @@
     max-width: 600px;
   }
   
-  .container-responsive .text h1 {
+  .container-responsive .text h2 {
     font-size: 50px;
     margin-bottom: 20px;
     font-family: Arial, sans-serif;
