@@ -115,6 +115,9 @@
     animation-name: mesImages;
     animation-iteration-count: infinite;
   }
+  #image-tel{
+    display: none;
+  }
   
   @keyframes mesImages {
     0% {
@@ -145,6 +148,13 @@
     width: 640px;
     z-index: -1;
     overflow: hidden;
+    border: 15px solid rgba(163, 177, 138, 0.479);
+    box-shadow: 0 0 10px rgba(163, 177, 138);
+  }
+  #image-tel{
+    border: 15px solid rgba(163, 177, 138, 0.479);
+    box-shadow: 0 0 10px rgba(163, 177, 138);
+    display: none;
   }
   
   content {

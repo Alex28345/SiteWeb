@@ -97,6 +97,20 @@
   .container-responsive .pays .media {
     margin-right: 0px;
   }
-  
-  
+}
+@media screen and (max-width: 800px) {
+  #caroussel{
+    display: none;
+  }
+
+  #image-tel{
+    margin: 20px;
+    display: block;
+    width: 80%;
+    border-radius: 10px;
+    
+  }
+
+  @keyframes mesImages {
+  }
 }

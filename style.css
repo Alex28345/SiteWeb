@@ -111,6 +111,9 @@ nav .nav-links>ul li:hover .sous {
   animation-name: mesImages;
   animation-iteration-count: infinite;
 }
+#image-tel{
+  display: none;
+}
 
 @keyframes mesImages {
   0% {
@@ -136,23 +139,25 @@ nav .nav-links>ul li:hover .sous {
 
 #caroussel {
   border-radius: 15px;
-  margin-top: 30px;
   height: 480px;
   width: 640px;
   z-index: -1;
   overflow: hidden;
+  border: 15px solid rgba(82, 183, 136, 0.479);
+}
+#image-tel{
+  border: 15px solid rgba(82, 183, 136, 0.479);
+  display: none;
 }
 
 content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
-
 }
 
 content p{
-  margin-top: 10px;
+  margin: 20px;
 }
 
 content h1 {
