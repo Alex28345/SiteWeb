@@ -75,19 +75,19 @@
             <div class="text">Fé froid lo
             </div>
         </div>
-        <script>
-            const menuTel = document.querySelector(".menu")
-            const navLinks = document.querySelector(".nav-links")
-
-            menuTel.addEventListener('click', () => {
-                navLinks.classList.toggle('mobile-menu')
-            })
-        </script>
-        <button class="nuit" onclick="switchStyle('../style.css')"><img src="../assets/soleil.svg" alt="">
+        
     </div>
-    <button class="jour" onclick="switchStyle('../style2.css')"><img src="../assets/lune.svg" alt=""></button></div>
-    <button class="ancrage-haut"><a href="#top"><img src="../assets/ancrage-haut.svg"
-                alt="Retourner en haut"></a></button>
+    <script>
+        const menuTel = document.querySelector(".menu")
+        const navLinks = document.querySelector(".nav-links")
+
+        menuTel.addEventListener('click', () => {
+            navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+    <button class="nuit" onclick="switchStyle('../style.css')"><img src="../assets/soleil.svg" alt=""></button>
+    <button class="jour" onclick="switchStyle('../style2.css')"><img src="../assets/lune.svg" alt=""></button>
+    <a class="ancrage-haut" href="#top"><img src="../assets/ancrage-haut.svg" alt="Retourner en haut"></a>
 </body>
 
 </html>
