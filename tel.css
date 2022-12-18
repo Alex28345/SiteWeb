@@ -80,6 +80,14 @@
     display: none;
   }
 
+  #accueil h1 {
+    font-size: 40px;
+  }
+  #accueil p {
+    margin: 20px;
+    font-size: 20px;
+  }
+
   .container-responsive .pays2 {
     flex-direction: column;
   }
