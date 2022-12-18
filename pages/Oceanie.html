@@ -2,14 +2,17 @@
 <html lang="fr">
 
 <head>
+    <link rel="icon" href="/assets/logo.png">
     <script src="../script.js"></script>
     <link rel="stylesheet" href="../style.css" id="nuit">
     <link rel="stylesheet" href="../tel.css">
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" >
+    <meta  name="description" content="Avis et conseil des pays d'Oceanie">
     <title>Oceanie</title>
 </head>
 
 <body>
+    <!--Menu deroulant-->
 
     <nav>
 
@@ -67,12 +70,16 @@
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="../assets/discord.svg"
                 alt=""></a>
     </nav>
+    <!--Création d'un conteneur responsive avec des div pour chaque pays-->
     <div class="container-responsive">
         <div class="pays" id="Destination22">
-            <div class="media jour"><img src="../assets/pays1Afrique.jpg" alt=""></div>
+            <div class="media jour"><img src="../assets/hawaii.jpg" alt=""></div>
+            <div class="media nuit"><img src="../assets/hawaii(nuit).jpg" alt=""></div>
             <div class="text">
-                <h1> pays </h1>
-                Le text
+                <h2> Hawaii </h2>
+                Ou passer un bon été ? Destination idéale Hawaii, être au Etats unis tout en pouvant se baigner dans l'eau turquoise
+                à 30°C et profiter du climat humaide et tempéré d'une belle ile. Honolulu la grande ville d'Hawaii vous permet aussi
+                de faire du shoping avec son enorme centre commercial.
             </div>
         </div>
         <div class="pays2" id="Destination23">
@@ -93,6 +100,7 @@
             </div>
         </div>
     </div>
+    <!--Script pour ouvrir le menu en format téléphone-->
     <script>
         const menuTel = document.querySelector(".menu")
         const navLinks = document.querySelector(".nav-links")

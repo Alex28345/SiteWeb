@@ -1,20 +1,22 @@
-/*Reset CSS*/
+/*reinitialisation du CSS*/
 * {
   margin: 0px;
   padding: 0px;
   font-family: Comic Sans MS, Comic Sans, cursive;
   scroll-behavior: smooth;
 }
-
+/*image menu telephone cachée pour le mode ordinateur*/
 .menu {
   display: none;
   background: rgba(82, 183, 136, 0.479);
 }
 
+/*couleur de fond sauf le menu deroulant*/
 body:not(nav) {
   background: #f8f9fa;
 }
 
+/*Mise en page, style et animation du menu*/
 nav {
   backdrop-filter: blur(3px);
   display: flex;
@@ -105,6 +107,7 @@ nav .nav-links>ul li:hover .sous {
   font-size: 12px;
 }
 
+/*Animation et style du caroussel de la page initiale*/
 .images {
   display: flex;
   height: 100%;
@@ -112,10 +115,6 @@ nav .nav-links>ul li:hover .sous {
   animation-duration: 20s;
   animation-name: mesImages;
   animation-iteration-count: infinite;
-}
-
-#image-tel {
-  display: none;
 }
 
 @keyframes mesImages {
@@ -155,6 +154,7 @@ nav .nav-links>ul li:hover .sous {
   display: none;
 }
 
+/*Mise en page, de la page index et du formulaire*/
 #accueil {
   display: flex;
   flex-direction: column;
@@ -172,6 +172,8 @@ form{
   border-radius: 10px;
 }
 
+/*Mise en page, de la page du contenu des continents*/
+/*alterner entre image a gauche et a droite*/
 .container-responsive .pays {
   display: flex;
   align-items: center;
@@ -202,7 +204,7 @@ form{
   font-family: Arial, sans-serif;
   font-weight: bold;
 }
-
+/*petite blague maroc*/
 #perdu {
   display: none;
 }
@@ -218,10 +220,8 @@ form{
   justify-content: center;
 }
 
-
 .text {
   text-align: center;
-
 }
 
 .container-responsive .pays2 .text {
@@ -234,6 +234,8 @@ form{
   border-radius: 50px;
   border: 15px solid rgba(82, 183, 136, 0.479);
 }
+
+/*position et style des boutons en bas a gauche*/
 
 button img {
   width: 40px;
@@ -262,6 +264,7 @@ button {
   margin-left: 20px;
 }
 
+/*image de nuit cachées pour avoir seulement celles de jour*/
 .nuit {
   display: none;
 }

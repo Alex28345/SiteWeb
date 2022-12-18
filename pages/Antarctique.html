@@ -3,15 +3,17 @@
 
 <head>
     <script src="../script.js"></script>
-
+    <link rel="icon" href="/assets/logo.png">
     <link rel="stylesheet" href="../style.css" id="nuit">
     <link rel="stylesheet" href="../tel.css">
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" >
+    <meta name="description" content="Texte amusant sur la banquise car pas de pays en Antarctique">
     <title>Antarctique</title>
 
 </head>
 
 <body>
+    <!--Menu deroulant-->
 
     <nav>
 
@@ -69,14 +71,21 @@
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="../assets/discord.svg"
                 alt=""></a>
     </nav>
+    <!--Création d'un conteneur responsive avec des div pour chaque pays-->
     <div class="container-responsive">
         <div class="pays" id="Destination1">
-            <div class="media"><img src="/assets/pays1Afrique.jpg" alt=""></div>
-            <div class="text">Fé froid lo
+            <div class="media jour"><img src="../assets/antarctique.jpg" alt=""></div>
+            <div class="media nuit"><img src="../assets/antarctique(nuit).jpg" alt=""></div>
+
+            <div class="text"><h2>La banquise</h2>
+                <p>Nous n'avons pas encore voyagé la bas, il faut peut être demander aux manchots.
+                A coup sûr, vous pourrez avoir froid en allant la bas ;)
+                </p>
             </div>
         </div>
         
     </div>
+    <!--Script pour ouvrir le menu en format téléphone-->
     <script>
         const menuTel = document.querySelector(".menu")
         const navLinks = document.querySelector(".nav-links")

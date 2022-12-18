@@ -2,16 +2,19 @@
 <html lang="fr">
 
 <head>
+    <link rel="icon" href="/assets/logo.png">
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css" id="nuit">
     <link rel="stylesheet" href="tel.css">
     <meta charset="UTF-8">
+    <meta name="description"
+        content="page d'accueil avec carroussel d'images et formulaire pour questions potentielles">
     <title>Voyage Voyage</title>
 
 </head>
 
 <body>
-
+    <!--Menu deroulant-->
     <nav>
 
         <a href="index.html"><img src="assets/logo.png" alt=""></a>
@@ -68,6 +71,7 @@
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="assets/discord.svg" alt=""></a>
     </nav>
     <div id="accueil">
+        <!--Contenu premiere page et création carousel-->
         <h1>VOYAGE VOYAGE</h1>
         <p>Un récapitulatif de nos voyages à travers le monde entier avec nos avis et conseils.</p>
         <img id="image-tel" src="assets/caroussel1.JPG" alt="">
@@ -79,7 +83,7 @@
                 <img src="assets/caroussel4.JPG" alt="">
             </div>
         </div>
-        
+        <!--Creation du formulaire-->
         <form method="post">
             <h2>Si vous avez des questions n'hesitez pas</h2>
             <label for="name">Nom:</label>
@@ -93,6 +97,7 @@
             <input type="submit" value="Envoyer Mon Message" />
         </form>
     </div>
+    <!--Script pour ouvrir le menu en format téléphone-->
     <script>
         const menuTel = document.querySelector(".menu")
         const navLinks = document.querySelector(".nav-links")

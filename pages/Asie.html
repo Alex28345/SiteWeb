@@ -3,15 +3,17 @@
 
 <head>
     <script src="../script.js"></script>
-
+    <link rel="icon" href="/assets/logo.png">
     <link rel="stylesheet" href="../style.css" id="nuit">
     <link rel="stylesheet" href="../tel.css">
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" >
+    <meta name="description" content="Avis et conseil des pays d'Asie">
     <title>Asie</title>
 
 </head>
 
 <body>
+    <!--Menu deroulant-->
 
     <nav>
 
@@ -69,6 +71,7 @@
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="../assets/discord.svg"
                 alt=""></a>
     </nav>
+    <!--Création d'un conteneur responsive avec des div pour chaque pays-->
     <div class="container-responsive">
         <div class="pays" id="Destination18">
             <div class="media jour"><img src="../assets/maldives.jpg" alt=""></div>
@@ -154,6 +157,7 @@
             </div>
         </div>
     </div>
+    <!--Script pour ouvrir le menu en format téléphone-->
     <script>
         const menuTel = document.querySelector(".menu")
         const navLinks = document.querySelector(".nav-links")

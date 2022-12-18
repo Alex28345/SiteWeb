@@ -1,4 +1,4 @@
-/*Reset CSS*/
+/*reinitialisation du CSS*/
 * {
   margin: 0px;
   padding: 0px;
@@ -6,17 +6,19 @@
   scroll-behavior: smooth;
 
 }
-
+/*image menu telephone cachée pour le mode ordinateur*/
 .menu {
   display: none;
   background: rgba(163, 177, 138, 0.479);
 
 }
 
+/*couleur de fond sombre sauf le menu deroulant*/
 body:not(nav) {
   background: #232323;
 }
 
+/*Mise en page, style et animation du menu*/
 nav {
   backdrop-filter: blur(3px);
   display: flex;
@@ -108,6 +110,7 @@ nav .nav-links>ul li:hover .sous {
   font-size: 12px;
 }
 
+/*Animation et style du caroussel de la page initiale*/
 .images {
   display: flex;
   height: 100%;
@@ -115,10 +118,6 @@ nav .nav-links>ul li:hover .sous {
   animation-duration: 20s;
   animation-name: mesImages;
   animation-iteration-count: infinite;
-}
-
-#image-tel {
-  display: none;
 }
 
 @keyframes mesImages {
@@ -160,6 +159,7 @@ nav .nav-links>ul li:hover .sous {
   display: none;
 }
 
+/*Mise en page sombre de la page index et du formulaire*/
 #accueil {
   display: flex;
   flex-direction: column;
@@ -183,6 +183,8 @@ form{
   border-radius: 10px;
 }
 
+/*Mise en page sombre de la page du contenu des continents*/
+/*alterner entre image a gauche et a droite*/
 .container-responsive .pays {
   display: flex;
   align-items: center;
@@ -216,6 +218,7 @@ form{
   text-shadow: 0 0 3px #fff;
 }
 
+/*petite blague maroc*/
 #perdu {
   display: none;
 }
@@ -250,6 +253,7 @@ form{
 
 }
 
+/*position et style des boutons en bas a gauche*/
 button img {
   width: 40px;
   height: 40px;
@@ -280,6 +284,7 @@ button {
   margin-left: 20px;
 }
 
+/*image de jour cachées pour avoir seulement celles de nuit*/
 .jour {
   display: none;
 }

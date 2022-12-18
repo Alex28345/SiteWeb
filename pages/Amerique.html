@@ -3,15 +3,16 @@
 
 <head>
     <script src="../script.js"></script>
-
+    <link rel="icon" href="/assets/logo.png">
     <link rel="stylesheet" href="../style.css" id="nuit">
     <link rel="stylesheet" href="../tel.css">
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" >
+    <meta name="description" content="Avis et conseil des pays d'Amerique">
     <title>Amerique</title>
 </head>
 
 <body>
-
+    <!--Menu deroulant-->
     <nav>
         <a href="../index.html"><img src="../assets/logo.png" alt=""></a>
         <img src="../assets/menu.svg" alt="" class="menu">
@@ -67,20 +68,25 @@
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="../assets/discord.svg"
                 alt=""></a>
     </nav>
+    <!--Création d'un conteneur responsive avec des div pour chaque pays-->
     <div class="container-responsive">
         <div class="pays" id="Destination13">
             <div class="media jour"><img src="../assets/etats-unis-cote-est.jpg" alt=""></div>
             <div class="media nuit"><img src="../assets/etats-unis-cote-est(nuit).jpg" alt=""></div>
             <div class="text">
-                <h2>Etats Unis Cote Est </h2>
-                ???
+                <h2>Etats Unis Côte Est </h2>
+                Un classqiue de la cote Est des Etats unis est New York. Une ville grandiose avec des grattes ciel, 
+                des panneaux démesurés dans Times Square ou encore l'immense Central park pour de la verdure au milieu de cette ville.
+                De nombreuses visites reste indispensable comme une montée à l’Empire State Building et Top of the rock ou voir match de basketball
+                De nombreuses activités pour ne pas s'ennuyer mais il faut prévoir de bonnes chaussures car beacoup de marche est
+                obligatoir dans une ville aussi grande.
             </div>
         </div>
         <div class="pays2" id="Destination14">
             <div class="media jour"><img src="../assets/etats-unis-cote-ouest.jpg" alt=""></div>
             <div class="media nuit"><img src="../assets/etats-unis-cote-ouest(nuit).jpg" alt=""></div>
             <div class="text">
-                <h2>Etats-Unis Cote Ouest </h2>
+                <h2>Etats-Unis Côte Ouest </h2>
                 <p>Pour visiter ce côté des Etats-unis, le mieux est de faire est
                     un road trip afin visiter un maximum de lieux iconiques.
                     Le plus simple est de louer une voiture afin de vivre le rêve américain durant deux semaines en
@@ -149,6 +155,7 @@
             </div>
         </div>
     </div>
+    <!--Script pour ouvrir le menu en format téléphone-->
     <script>
         const menuTel = document.querySelector(".menu")
         const navLinks = document.querySelector(".nav-links")
