@@ -8,17 +8,16 @@
     <link rel="stylesheet" href="../tel.css">
     <meta charset="UTF-8">
     <title>Antarctique</title>
-    
+
 </head>
 
 <body>
-    
+
     <nav>
-        
-        <a href="../index.html"><img
-                src="https://media.discordapp.net/attachments/1046707606087008278/1046713542977527808/logo.png" alt=""></a>
-                <img src="../assets/menu.svg" alt="" class="menu" >
-        <div class="nav-links">         
+
+        <a href="../index.html"><img src="../assets/logo.png" alt=""></a>
+        <img src="../assets/menu.svg" alt="" class="menu">
+        <div class="nav-links">
             <ul>
                 <li class="deroulant"><a href="Europe.html">Europe</a>
                     <ul class="sous">
@@ -66,26 +65,29 @@
                 <li class="deroulant  active"><a href="Antarctique.html">Antarctique</a>
                 </li>
             </ul>
-        </div>   
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="../assets/discord.svg" alt=""></a>
+        </div>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="../assets/discord.svg"
+                alt=""></a>
     </nav>
     <div class="container-responsive">
         <div class="pays" id="Destination1">
             <div class="media"><img src="/assets/pays1Afrique.jpg" alt=""></div>
             <div class="text">Fé froid lo
             </div>
-    </div>
-    <script>
-        const menuTel = document.querySelector(".menu")
-        const navLinks = document.querySelector(".nav-links")
+        </div>
+        <script>
+            const menuTel = document.querySelector(".menu")
+            const navLinks = document.querySelector(".nav-links")
 
-        menuTel.addEventListener('click',()=>{
-        navLinks.classList.toggle('mobile-menu')
-        })
-    </script>
-    <button class="nuit" onclick="switchStyle('../style.css')"><img src="../assets/soleil.svg" alt=""></div>
+            menuTel.addEventListener('click', () => {
+                navLinks.classList.toggle('mobile-menu')
+            })
+        </script>
+        <button class="nuit" onclick="switchStyle('../style.css')"><img src="../assets/soleil.svg" alt="">
+    </div>
     <button class="jour" onclick="switchStyle('../style2.css')"><img src="../assets/lune.svg" alt=""></button></div>
-    <button class="ancrage-haut"><a href="#top"><img src="../assets/ancrage-haut.svg" alt="Retourner en haut"></a></button>
+    <button class="ancrage-haut"><a href="#top"><img src="../assets/ancrage-haut.svg"
+                alt="Retourner en haut"></a></button>
 </body>
 
 </html>

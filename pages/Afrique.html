@@ -11,10 +11,9 @@
 
 <body>
     <nav>
-        
-        <a href="../index.html"><img src="https://media.discordapp.net/attachments/1046707606087008278/1046713542977527808/logo.png" alt=""></a>
-        <img src="../assets/menu.svg" alt="" class="menu" >
-        <div class="nav-links"> 
+        <a href="../index.html"><img src="../assets/logo.png" alt=""></a>
+        <img src="../assets/menu.svg" alt="" class="menu">
+        <div class="nav-links">
             <ul>
                 <li class="deroulant"><a href="Europe.html">Europe</a>
                     <ul class="sous">
@@ -62,8 +61,9 @@
                 <li class="deroulant"><a href="Antarctique.html">Antarctique</a>
                 </li>
             </ul>
-        </div>   
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="../assets/discord.svg" alt=""></a>
+        </div>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="../assets/discord.svg"
+                alt=""></a>
     </nav>
     <div class="container-responsive">
         <div class="pays" class="Destination9">
@@ -101,7 +101,7 @@
                     week-end, il ne faut pas oublier de se faire plaisir ! ;)</p>
             </div>
         </div>
-        <div class="pays" class="Destination11">
+        <div class="pays" id="Destination11">
             <div class="media jour"><img src="../assets/egypte.jpg" alt=""></div>
             <div class="media nuit"><img src="../assets/egypte(nuit).jpg" alt=""></div>
             <div class="text">
@@ -116,7 +116,8 @@
                     dans
                     le sud et à chaque arrêt visiter de nouveaux temples tous plus impressionnants les uns que les
                     autres.
-                    Pour terminer, à l'arrivée de la croisière se retrouver dans un magnifique hôtel en bord de plage pour
+                    Pour terminer, à l'arrivée de la croisière se retrouver dans un magnifique hôtel en bord de plage
+                    pour
                     decouvrir des fonds marins qui font partie des meilleurs spot de plongée du monde.</p>
             </div>
         </div>
@@ -132,7 +133,7 @@
                     des safaris pour découvrir un maximum de parcs naturels dans lesquels il est possible apercevoir des
                     milliers
                     d'animaux et espérer pouvoir croiser le roi de tous les animaux, Le lion. Ensuite durant la
-                    deuxième semaine afin de se reposer il faudra se déplacer vers zanzibar afin de passer la semaine a 
+                    deuxième semaine afin de se reposer il faudra se déplacer vers zanzibar afin de passer la semaine a
                     la piscine et en bords de plage.</p>
             </div>
         </div>
@@ -141,13 +142,14 @@
         const menuTel = document.querySelector(".menu")
         const navLinks = document.querySelector(".nav-links")
 
-        menuTel.addEventListener('click',()=>{
-        navLinks.classList.toggle('mobile-menu')
+        menuTel.addEventListener('click', () => {
+            navLinks.classList.toggle('mobile-menu')
         })
     </script>
     <button class="nuit" onclick="switchStyle('../style.css')"><img src="../assets/soleil.svg" alt=""></button>
     <button class="jour" onclick="switchStyle('../style2.css')"><img src="../assets/lune.svg" alt=""></button>
-    <button class="ancrage-haut"><a href="#top"><img src="../assets/ancrage-haut.svg" alt="Retourner en haut"></a></button>
+    <button class="ancrage-haut"><a href="#top"><img src="../assets/ancrage-haut.svg"
+                alt="Retourner en haut"></a></button>
 </body>
 
 </html>

@@ -31,13 +31,15 @@ nav {
 nav img {
   width: 50px;
 }
-nav .nav-links ul{
+
+nav .nav-links ul {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
   width: 100%;
 }
+
 nav .nav-links {
   width: 100%;
 }
@@ -111,7 +113,8 @@ nav .nav-links>ul li:hover .sous {
   animation-name: mesImages;
   animation-iteration-count: infinite;
 }
-#image-tel{
+
+#image-tel {
   display: none;
 }
 
@@ -140,12 +143,14 @@ nav .nav-links>ul li:hover .sous {
 #caroussel {
   border-radius: 15px;
   height: 480px;
+  margin: 20px;
   width: 640px;
   z-index: -1;
   overflow: hidden;
   border: 15px solid rgba(82, 183, 136, 0.479);
 }
-#image-tel{
+
+#image-tel {
   border: 15px solid rgba(82, 183, 136, 0.479);
   display: none;
 }
@@ -156,7 +161,7 @@ content {
   align-items: center;
 }
 
-content p{
+content p {
   margin: 20px;
 }
 
@@ -227,26 +232,29 @@ content h1 {
   border: 15px solid rgba(82, 183, 136, 0.479);
 }
 
-button img{
+button img {
   width: 40px;
   height: 40px;
   padding: 5px;
 }
 
-button{
+button {
   opacity: 80%;
   position: sticky;
   bottom: 20px;
   left: 20px;
   border-radius: 5px;
 }
+
 .ancrage-haut {
   left: 80px;
 }
-
 
 .nuit {
   display: none;
 }
 
-
+form {
+  display: flex;
+  flex-direction: column;
+}
